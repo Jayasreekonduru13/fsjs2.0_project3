@@ -1,0 +1,128 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin: 50px 86px;
+    font-family: orbitron;
+}
+.navbar-container{
+    display: flex;
+}
+.list{
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+}
+.list-item{
+    padding-left: 50px;
+    font-size: 19px;
+}
+.list-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.button-group{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.search-icon{
+    height: 40px;
+    width: 30px;
+    margin-right: 10px;
+}
+.nav-button{
+    border-radius: 8px;
+    padding: 3px 23px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #ffffff;
+}
+.hero-container{
+    display:flex;
+    margin-top: 45px;
+    
+}
+div:nth-child(5){
+    margin-top: 10px;
+    position: absolute;
+}
+.square img{
+    margin-top: 160px;
+    margin-left: 102px;
+    height: 50vh;
+    width: 45vh;
+    
+}
+
+div.hero-container>span:nth-child(3) img{
+    position: absolute;
+    top: 610px;
+    right: 890px;
+    height: 55px;
+    width: 50px;
+}
+.hero-container>div:nth-child(5) img{
+    margin-top: 12px;
+    height: 60vh;
+    width: 50vh;
+}
+.star:nth-of-type(2) img{
+    position: absolute;
+    top: 200px;
+    left: 1360px;
+}
+
+.globe{
+    position: absolute;
+    margin-left: 750px;
+}
+.hero-container-right{
+    margin-top: 150px;
+    margin-left: 10px;
+    text-align: center;
+}
+.hero-heading{
+    font-size: 52px;
+    margin-right: px;
+     
+}
+.hero-description{
+    margin: 38px;
+    font-family: Arial;
+    color: #758283;
+}
+.button-email{
+    margin-top: 35px;
+    border-radius: 8px;
+    padding: 3px 23px;
+    font-size: 20px;
+    font-family: orbitron;
+    background-color: #ffffff;
+    color: #758283;
+}
+.button-join{
+    border-radius: 8px;
+    padding: 3px 23px;
+    font-size: 20px;
+    margin-left: 7px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: orbitron;
+}
+.contact-heading{
+    margin:8px;
+    margin-top: 65px;
+    font-size: 25px;
+    font-family: Arial;
+    color: #758283;
+}
+
+div.icons>span{
+    padding-left: 10px;
+}
+
